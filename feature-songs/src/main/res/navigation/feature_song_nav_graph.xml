@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/feature_song_nav_graph"
+    app:startDestination="@id/ITunesSongListFragment">
+
+    <fragment
+        android:id="@+id/ITunesSongListFragment"
+        android:name="com.technicalTest.feature_songs.presentation.ITunesAlbumListFragment"
+        android:label="fragment_i_tunes_song">
+    </fragment>
+
+</navigation>

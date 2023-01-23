@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="write_your_search_here">Write your search here</string>
+    <string name="song_released_date" tools:ignore="ExtraTranslation">Released date</string>
+    <string name="song_duration" tools:ignore="ExtraTranslation">duration: %1$s</string>
+    <string name="purchase_track" tools:ignore="ExtraTranslation">Purchase this track %1$s %2$s</string>
+    <string name="purchase_album" tools:ignore="ExtraTranslation">Purchase this album %1$s %2$s</string>
+    <string name="song_album" tools:ignore="ExtraTranslation">Album: %1$s</string>
+</resources>
