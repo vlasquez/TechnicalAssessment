@@ -33,5 +33,7 @@ object Versions {
     const val viewModelComposeVersion = "2.5.1"
     const val mockkVersion = "1.13.2"
     const val robolectric = "4.8"
+    const val kotlinCoroutineTestVersion = "1.6.0"
+    const val turbineVersion = "0.7.0"
 
 }

@@ -22,7 +22,7 @@ internal class SongsViewModel @Inject constructor(
     fun searchSong(searchTerm: String) {
         viewModelScope.launch {
             runCatching {
-                getSongsUseCase.invoke(searchTerm)
+                getSongsUseCase(searchTerm)
             }.onSuccess {
                 _viewState.value = ViewState.SongListLoaded(it)
             }.onFailure {

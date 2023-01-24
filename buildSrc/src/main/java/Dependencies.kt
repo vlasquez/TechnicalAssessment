@@ -45,6 +45,8 @@ object Dependencies {
         val jUnitAndroidExt by lazy { "junit:junit:${Versions.jUnitVersion}" }
         val mockk by lazy { "io.mockk:mockk:${Versions.mockkVersion}" }
         val robolectric by lazy { "org.robolectric:robolectric:${Versions.robolectric}" }
+        val kotlinCoroutinesTest by lazy { "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.kotlinCoroutineTestVersion}" }
+        val turbine by lazy { "app.cash.turbine:turbine:${Versions.turbineVersion}" }
     }
 
     object Api {

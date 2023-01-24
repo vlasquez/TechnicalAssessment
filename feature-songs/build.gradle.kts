@@ -82,6 +82,9 @@ dependencies {
 
     testImplementation(Dependencies.Test.jUnit)
     testImplementation(Dependencies.Test.mockk)
+    testImplementation(Dependencies.Test.kotlinCoroutinesTest)
+    testImplementation(Dependencies.Test.turbine)
+
 
     androidTestImplementation(Dependencies.Test.jUnitAndroidExt)
 }

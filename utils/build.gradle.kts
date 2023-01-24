@@ -52,8 +52,10 @@ dependencies {
     implementation(Dependencies.Android.materialCompose)
     implementation(Dependencies.Android.composeUiTooling)
 
-    testImplementation(Dependencies.Test.jUnit)
+    implementation(Dependencies.Test.jUnit)
     testImplementation(Dependencies.Test.mockk)
     testImplementation(Dependencies.Test.robolectric)
     androidTestImplementation(Dependencies.Test.jUnitAndroidExt)
+    implementation(Dependencies.Test.turbine)
+
 }
